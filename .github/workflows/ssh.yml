@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync Files
       uses: SamKirkland/web-deploy@v1
       with:
-        target-server: redjacketrenovations.com
+        target-server: ${{ secrets.SERVER}}
         remote-user: ${{ secrets.USER }}
         private-ssh-key: ${{ secrets.PRIVATE_SSH }}
         destination-path: ${{ secrets.DIRECTORY }}
