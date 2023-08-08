@@ -13,5 +13,5 @@ jobs:
       with:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.USER }}
-        password: ${{ secrets.PASSWORD }}
+        password: ${{ secrets.FTP_PASS }}
         dry-run: true
